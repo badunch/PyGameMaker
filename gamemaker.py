@@ -11,7 +11,7 @@ from google.api_core import exceptions, retry
 load_dotenv()
 
 # Configure the API key from the environment variable
-GOOGLE_API_KEY = "AIzaSyDo8SD41dAhRB62tp48vDz2f1QDBe8gsH0"
+GOOGLE_API_KEY = "GOOGLE_API_KEY"
 if not GOOGLE_API_KEY:
     raise ValueError("API key not found. Ensure that the .env file contains the 'GOOGLE_API_KEY' variable.")
 genai.configure(api_key=GOOGLE_API_KEY)
